@@ -32,7 +32,7 @@ $navbar-default-bg: #000000;
 .jumbotron h1 {
   color: #fff;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -46,12 +46,9 @@ $navbar-default-bg: #000000;
   font-size: 1.3em;
   background-color: black;
   color: #fff;
+  border: 1px solid #fff;
 }
 
-.btnl-xl:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 footer {
   margin-top: 45px;
@@ -76,4 +73,8 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+#jumbotron-content {
+  padding-top: 50px;
 }

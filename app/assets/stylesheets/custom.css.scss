@@ -5,6 +5,19 @@ $navbar-default-bg: #000000;
 @import "bootstrap";
 
 
+
+.nav.navbar-nav li a {
+  color: #fff;
+}
+
+.nav.navbar-nav li a:hover {
+  color: #6C6C6C;
+}
+
+.dropdown-menu.dropdownText li a {
+  color: black;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
